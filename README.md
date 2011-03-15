@@ -1,9 +1,10 @@
 #README.md
 
-[Mein Rails Depot auf Heroku]http://pure-sunset-939.heroku.com/  <br>
-[Markdown Hilfe]: http://de.wikipedia.org/wiki/Markdown
+[Mein Rails Depot auf Heroku](http://pure-sunset-939.heroku.com/)  <br>
+<a href="http://pure-sunset-939.heroku.com/">pure-sunset-939.heroku.com</a>
+[Markdown Hilfe](http://de.wikipedia.org/wiki/Markdown)
 
-
+Kommentar: nach 10 Versuchen den Link in MD zu definieren aufgegeben!!
 
 #Notizen
 aus Git Console 
