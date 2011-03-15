@@ -3,6 +3,9 @@
 Mein Rails Depot auf Heroku [["http://pure-sunset-939.heroku.com/"]]<br>
 Markdown Hilfe [["http://de.wikipedia.org/wiki/Markdown"]]
 
+(in Auf der Githubwebseite wird die Doppelklammer aber nicht in einen Link übersetzt!
+Titel funktionieren aber!)
+
 #Notizen
 aus Git Console 
 [[http://devcenter.heroku.com/articles/quickstart]]
