@@ -1,7 +1,7 @@
 #README.md
 
 [Mein Rails Depot auf Heroku]http://pure-sunset-939.heroku.com/  <br>
-[Markdown Hilfe]:http://de.wikipedia.org/wiki/Markdown
+[Markdown Hilfe]: http://de.wikipedia.org/wiki/Markdown
 
 
 
