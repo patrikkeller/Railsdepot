@@ -1,7 +1,7 @@
 #README.md
 
-[Mein Rails Depot auf Heroku] ("http://pure-sunset-939.heroku.com/")
-[Markdown hilfe] ("http://de.wikipedia.org/wiki/Markdown")
+Mein Rails Depot auf Heroku [["http://pure-sunset-939.heroku.com/"]]
+Markdown hilfe [["http://de.wikipedia.org/wiki/Markdown"]]
 
 #Notizen
 aus Git Console 
