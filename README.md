@@ -1,10 +1,9 @@
 #README.md
 
-Mein Rails Depot auf Heroku [["http://pure-sunset-939.heroku.com/"]]<br>
+[Mein Rails Depot auf Heroku]("http://pure-sunset-939.heroku.com/")<br>
 [Markdown Hilfe]("http://de.wikipedia.org/wiki/Markdown")
 
-(in Auf der Githubwebseite wird die Doppelklammer aber nicht in einen Link übersetzt!
-Titel funktionieren aber!)
+
 
 #Notizen
 aus Git Console 
@@ -13,7 +12,7 @@ aus Git Console
 
 $ heroku create
 Creating pure-sunset-939.... done
-"http://pure-sunset-939.heroku.com/" | git@heroku.com:pure-sunset-939.git
+(http://pure-sunset-939.heroku.com/) | git@heroku.com:pure-sunset-939.git
 
 Git remote heroku added<br>
 $ git add .<br>
