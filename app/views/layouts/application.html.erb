@@ -15,14 +15,20 @@
 <div id="columns" >
  <div id="side" >
   <a href="http://www...." >Home</a><br />
+  <%= link_to Product, products_path %><br>
   <a href="http://www..../faq" >Questions</a><br />
   <a href="http://www..../news" >News</a><br />
   <a href="http://www..../contact" >Contact</a><br />
+
  </div>
  <div id="main" >
  <%= yield %>
  </div>
 </div>
-
+<hr>
+<div id="footer" align=right>
+by Patrik Keller<br>
+2011
+</div>
 </body>
 </html>
