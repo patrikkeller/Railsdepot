@@ -12,18 +12,19 @@
      <%= image_tag("logo.png") %>
      <%= @page_title || "Pragmatic Bookshelf" %>
   </div>
-<div id="columns" >
- <div id="side" >
-  <a href="http://www...." >Home</a><br />
-  <%= link_to Product, products_path %><br>
-  <a href="http://www..../faq" >Questions</a><br />
-  <a href="http://www..../news" >News</a><br />
-  <a href="http://www..../contact" >Contact</a><br />
-
- </div>
- <div id="main" >
- <%= yield %>
- </div>
+  <div id="columns" >
+    <div id="side" >
+     <a href="/" >Home</a><br />
+     <%= link_to Product, products_path %><br>
+     <a href="http://www..../faq" >Questions</a><br />
+     <a href="http://www..../news" >News</a><br />
+     <a href="http://www..../contact" >Contact</a><br />
+	 <br>
+	 <a href="http://localhost:3000/line_items"> Line items</a><br>
+  </div>
+  <div id="main" >
+     <%= yield %>
+  </div>
 </div>
 <hr>
 <div id="footer" align=right>
