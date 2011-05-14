@@ -14,7 +14,7 @@
   </div>
   <div id="columns" >
     <div id="side" >
-     <a href="/" >Home</a><br />
+     <a href="/" >Home</a> (<a href="http://pure-sunset-939.heroku.com" >Heroku</a>)<br />
      <%= link_to Product, products_path %><br>
      <a href="http://groups.google.com/group/rubyonrails-talk" >Questions</a><br />
      <a href="http://edu.panter.ch/WebProgrammierung2011" >News</a><br />
@@ -22,7 +22,9 @@
 	 <br>
 	 <a href="/line_items"> Line items</a> / 
 	 <%= link_to LineItem, line_items_path %><br>
-	 <%= link_to Cart, carts_path %>
+	 <%= link_to Cart, carts_path %><br>
+	 <br>
+	 <%= Time.now %>
   </div>
   <div id="main" >
      <%= yield %>

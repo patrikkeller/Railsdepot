@@ -33,6 +33,7 @@ class ProductTest < ActiveSupport::TestCase
 	
 	product.price = 0
 	assert product.invalid?
+	# auch die Fehlermeldung soll dann so sein, wie wir es erwarten!
 	assert_equal "must be greater than or equal to 0.01",
 		product.errors[:price].join('; ')
 	
