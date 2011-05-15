@@ -5,8 +5,19 @@
         border: 2px solid red;
         padding: 1em;
         margin-bottom: 2em;
-        background-color: #0f0f0f;
+        background-color: #F781F3;
         font: bold smaller sans-serif;
+}
+
+#store .cart_title {
+font: 120% bold;
+}
+#store .item_price, #store .total_line {
+text-align: right;
+}
+#store .total_line .total_cell {
+font-weight: bold;
+border-top: 1px solid #595;
 }
 
 
