@@ -1,39 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Depot von Patrik Keller</title>
-  <%= stylesheet_link_tag "/stylesheets/scaffold.css" %>
-  <%= stylesheet_link_tag "/stylesheets/depot.css", :media => "all" %>
-  <%= csrf_meta_tag %>
-  <%= csrf_meta_tag %>
+<title>Pragprog Books Online Store</title>
+<%= stylesheet_link_tag "scaffold" %>
+<%= stylesheet_link_tag "depot", :media => "all" %>
+<%= javascript_include_tag :defaults %>
+<%= csrf_meta_tag %>
 </head>
-<body id="store">
-   <div id="banner" >
-     <%= image_tag("logo.png") %>
-     <%= @page_title || "Pragmatic Bookshelf" %>
-  </div>
-  <div id="columns" >
-    <div id="side" >
-     <a href="/" >Home</a> (<a href="http://pure-sunset-939.heroku.com" >Heroku</a>)<br />
-     <%= link_to Product, products_path %><br>
-     <a href="http://groups.google.com/group/rubyonrails-talk" >Questions</a><br />
-     <a href="http://edu.panter.ch/WebProgrammierung2011" >News</a><br />
-     <a href="mailto:patrik.keller@xxxxxxxxxxx.ch" >Contact</a><br />
-	 <br>
-	 <a href="/line_items"> Line items</a> / 
-	 <%= link_to LineItem, line_items_path %><br>
-	 <%= link_to Cart, carts_path %><br>
-	 <br>
-	 <%= Time.now %>
-  </div>
-  <div id="main" >
-     <%= yield %>
-  </div>
+<body id="store" >
+<div id="banner" >
+<%= image_tag("logo.png") %>
+<%= @page_title || "Pragmatic Bookshelf" %>
 </div>
-<hr>
-<div id="footer" align=right>
-by Patrik Keller<br>
-2011
+<div id="columns" >
+<div id="side" >
+<div id="cart" >
+<%= render @cart %>
+</div>
+<a href="http://www...." >Home</a><br />
+<a href="http://www..../faq" >Questions</a><br />
+<a href="http://www..../news" >News</a><br />
+<a href="http://www..../contact" >Contact</a><br />
+</div>
+<div id="main" >
+<%= yield %>
+</div>
 </div>
 </body>
 </html>

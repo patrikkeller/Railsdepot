@@ -63,7 +63,8 @@ class LineItemsController < ApplicationController
 	respond_to do |format|
 		if @line_item.save
 			# format.html { redirect_to(@line_item.cart, :notice => 'Line item was successfully created.') }
-			format.html { redirect_to(@line_item.cart) }
+			# format.html { redirect_to(@line_item.cart) } # zeigt cart nach adden an
+			format.html { redirect_to(store_url) }  # zeigt den Cart in der Sidebar an
 			format.xml { render :xml => @line_item, :status => :created, :location => @line_item }
 		else
 			format.html { render :action => "new" }
